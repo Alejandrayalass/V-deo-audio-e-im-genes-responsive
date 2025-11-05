@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imágenes Responsive</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <h1>Imágenes Responsive</h1>
+
+  <div class="image-container">
+    <img 
+      src="estatus/Madagascar Centella Travel Kit.jpg"
+      srcset="
+        estatus/Madagascar Centella Travel Kit-300w.jpg 300w,
+        estatus/Madagascar Centella Travel Kit-600w.jpg 600w,
+        estatus/Madagascar Centella Travel Kit-900w.jpg 900w"
+      sizes="(max-width: 600px) 300px, 
+             (max-width: 900px) 600px, 
+             900px"
+      alt="Madagascar Centella Travel Kit"
+      class="imagen-responsive">
+  </div>
+</body>
+</html>
+

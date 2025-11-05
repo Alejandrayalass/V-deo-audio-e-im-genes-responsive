@@ -1,0 +1,9 @@
+.image-container {
+  text-align: center;
+}
+
+.imagen-responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
